@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.8
-    working_directory: /go/src/github.com/MasatoTokuse/go-test-circleci-sample
+    working_directory: /go/src/github.com/MasatoTokuse/circleci
     steps:
       - checkout
       - run: go get -v -t -d ./...
